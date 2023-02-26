@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    background-color: #D5E2F2;
+    font-family: "Quicksand", sans-serif;
+}
+
+header {
+    background-color: #364C59;
+    color: white;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+header>h1 {
+    font-variant: small-caps;
+}
+
+header>a {
+    text-decoration: none;
+    color: #B4C4D9;
+    font-weight: 600;
+}
+
+section {
+    padding: 10vh 0 10vh 50px;
+    line-height: 2em;
+}
+
+.default {
+    background-color: #D5E2F2;
+    color: black;
+}
+
+.image {
+    background-color: #657A8C;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    background-color: #364C59;
+    color: white;
+    padding: 10px 0 10px 0;
+}
+
+footer>p>a {
+    text-decoration: none;
+    color: #B4C4D9;
+    font-weight: 600;
+}
